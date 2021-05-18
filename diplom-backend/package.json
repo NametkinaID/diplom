@@ -1,0 +1,28 @@
+{
+  "name": "diplom-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon  ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "canvas": "^2.7.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "face-api.js": "^0.22.2",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.6",
+    "morgan": "~1.9.1",
+    "node-2fa": "^2.0.2",
+    "pug": "2.0.0-beta11",
+    "speakeasy": "^2.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
