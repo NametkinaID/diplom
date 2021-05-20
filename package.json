@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "cd diplom && npm install",
-    "build": "cd diplom && npm build"
+    "preinstall": "cd diplom && npm install && npm build",
+    "start": "cd diplom-backend && npm start"
   },
   "repository": {
     "type": "git",
